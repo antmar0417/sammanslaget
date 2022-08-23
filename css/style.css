@@ -109,6 +109,10 @@ p {
   line-height: 25px;
 }
 
+.game {
+  margin-top: 60px;
+}
+
 /* Contact Section */
 .fab {
   font-size: 100px;
