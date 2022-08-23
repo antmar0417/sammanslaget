@@ -1,0 +1,138 @@
+header {
+  background-color: var(--color-header);
+  top: 0;
+  position: sticky;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.9);
+  letter-spacing: 2px;
+  font-family: Oswald, sans-serif;
+  font-size: 20px;
+}
+
+.navbar {
+  max-width: 100%;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-link {
+  transition: 0.3s ease-out;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: var(--on-background);
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  font-weight: bold;
+}
+
+a:hover,
+a:focus {
+  color: var(--on-background);
+  border-bottom: 3px solid;
+}
+
+/* a:first-child:hover {
+  border-bottom: none;
+  text-decoration: none;
+} */
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: black;
+}
+
+.social-media-icons {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: 100%;
+    top: 40px;
+    gap: 0;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255);
+
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-item:first-child {
+    padding-top: 140px;
+  }
+
+  .social-media-icons {
+    padding-bottom: 180px;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+  /* --- Logo styling --- */
+  .nav-branding .logo-image {
+    width: 143px;
+    height: 42px;
+  }
+
+  /* --- Social media icons for mobile --- */
+  .nav-menu .social-media-icons {
+    display: inline-flex;
+    offset-distance: 70px;
+  }
+
+  .social-media-icons img {
+    margin-top: 120px;
+    padding: 2rem;
+    width: auto;
+    height: auto;
+  }
+
+  img .facebook {
+    margin-left: 8px;
+  }
+}
