@@ -32,11 +32,21 @@ nav {
 
 a {
   margin-right: 25px;
-  color: var(--primary-color);
+  color: var(--on-background);
   text-decoration: none;
   border-bottom: 3px solid transparent;
   font-weight: bold;
 }
+
+/* a:not(:first-child) {
+  margin-top: 0px;
+  background-color: aquamarine;
+}
+
+a:first-child:hover {
+  border-bottom: none;
+  text-decoration: none;
+} */
 
 a:hover,
 a:focus {
@@ -147,29 +157,14 @@ p {
   color: var(--on-background);
 }
 
-/* Dark Mode Toggle */
-.theme-switch-wrapper {
-  display: flex;
-  align-items: center;
-  z-index: 100;
-  position: fixed;
-  right: 25px;
-  top: 30px;
-}
-
-.theme-switch-wrapper span {
-  margin-right: 10px;
-  font-size: 1rem;
-}
-
-.toggle-text {
+/* .toggle-text {
   position: relative;
   top: -4px;
   right: 5px;
   color: var(--on-background);
-}
+} */
 
-.theme-switch {
+/* .theme-switch {
   display: inline-block;
   height: 34px;
   position: relative;
@@ -178,7 +173,7 @@ p {
 
 .theme-switch input {
   display: none;
-}
+} */
 
 .slider {
   background: #ccc;
