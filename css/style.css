@@ -109,6 +109,13 @@ p {
   line-height: 25px;
 }
 
+iframe {
+  /* width="600"
+  height="620" */
+  width: 600px;
+  height: 620px;
+}
+
 .game {
   margin-top: 60px;
 }
@@ -210,6 +217,11 @@ p {
 
   .buttons > button {
     margin-top: 20px;
+  }
+
+  iframe {
+    width: 380px;
+    height: 400px;
   }
 
   .social-icons {
