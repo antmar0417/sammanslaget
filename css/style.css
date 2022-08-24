@@ -7,8 +7,8 @@ section {
 }
 
 h1 {
-  font-family: Kaushan Script, sans-serif;
-  font-size: 100px;
+  /* font-family: Kaushan Script, sans-serif; */
+  font-size: 40px;
   margin-bottom: 0;
 }
 
@@ -21,6 +21,7 @@ h2 {
 /* Home Section */
 .title-group {
   text-align: center;
+  max-width: 900px;
 }
 
 /* About Section */
@@ -179,7 +180,7 @@ iframe {
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   h2 {
