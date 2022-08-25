@@ -66,6 +66,9 @@ img {
 
 .group-number {
   margin-bottom: 30px;
+  min-width: 80px;
+  background-color: aqua;
+  text-align: center;
 }
 
 p {
