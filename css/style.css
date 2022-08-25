@@ -121,6 +121,12 @@ iframe {
   filter: grayscale(75%);
 }
 
+.profile-contact a:hover,
+a:focus {
+  color: var(--on-background);
+  border-bottom: 0px;
+}
+
 .profile-name {
   font-size: 22px;
   font-weight: bold;
