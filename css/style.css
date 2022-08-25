@@ -101,6 +101,7 @@ iframe {
   cursor: pointer;
   display: flex;
   margin: 0 16px;
+  width: 203px;
   transition: transform 200ms ease;
 }
 
@@ -143,11 +144,22 @@ iframe {
   padding: 10px;
 }
 
-/* Contact Section */
 .fab:hover {
   color: var(--on-background);
 }
 
+.profile-contact .far {
+  color: var(--primary-color);
+  font-size: 50px;
+  margin-right: 0px;
+  padding: 10px;
+}
+
+.far:hover {
+  color: var(--on-background);
+}
+
+/* Contact Section */
 .contact-section {
   background-color: var(--on-primary);
 }
