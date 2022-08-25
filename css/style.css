@@ -34,7 +34,6 @@ h2 {
 }
 
 .image-container {
-  /* border: 1px solid var(--on-background-alt); */
   border-radius: 10px;
   padding: 10px 20px;
   margin-right: 20px;
@@ -138,15 +137,16 @@ iframe {
 }
 
 /* Contact Section */
-.fab {
-  font-size: 100px;
-  margin-right: 50px;
-  cursor: pointer;
-  color: var(--primary-color);
-}
-
 .fab:hover {
   color: var(--on-background);
+}
+.contact {
+  background-color: blueviolet;
+}
+.contact-image {
+  height: 350px;
+  width: 1240px;
+  background-color: rgb(116, 136, 47);
 }
 
 @media screen and (max-width: 1225px) {
