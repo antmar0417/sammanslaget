@@ -298,4 +298,8 @@ hr {
   .group-presentation {
     max-width: 340px;
   }
+
+  .group-number {
+    font-size: 12px;
+  }
 }
