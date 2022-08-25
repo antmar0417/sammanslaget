@@ -83,10 +83,9 @@ p {
 }
 
 iframe {
-  /* width="600"
-  height="620" */
   width: 600px;
   height: 620px;
+  border-radius: 8px;
 }
 
 .game {
@@ -183,7 +182,6 @@ a:focus {
   background-image: url("../img/banner_PC_no_text.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: center; */
 }
 
 .contact-container {
