@@ -20,6 +20,7 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
   color: var(--on-background);
   font-family: Comfortaa, sans-serif;
   background-color: var(--background);
