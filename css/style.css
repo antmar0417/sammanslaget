@@ -149,7 +149,10 @@ iframe {
 .contact-image {
   height: 450px;
   width: 100%;
-  background-color: rgb(116, 136, 47);
+  background-image: url("../img/footer-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
 }
 
 .contact-container {
