@@ -29,6 +29,10 @@ h2 {
   display: flex;
 }
 
+.about-title {
+  margin-bottom: 60px;
+}
+
 .image-container {
   border: 1px solid var(--secondary-color);
   border-radius: 10px;
@@ -158,7 +162,7 @@ iframe {
 .profile-name {
   font-size: 22px;
   font-weight: bold;
-  color: var(--black);
+  color: var(--dark);
 }
 
 .profile-desciption {
