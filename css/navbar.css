@@ -17,6 +17,15 @@ header {
   padding: 0px 24px 0px 54px;
 }
 
+.nav-branding {
+  transition: transform 200ms ease;
+}
+
+.nav-branding:hover {
+  border-bottom: 0px;
+  transform: translateX(-8px);
+}
+
 .nav-menu {
   display: flex;
   justify-content: space-between;
