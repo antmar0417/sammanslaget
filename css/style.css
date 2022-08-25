@@ -140,13 +140,21 @@ iframe {
 .fab:hover {
   color: var(--on-background);
 }
-.contact {
+section .contact {
   background-color: blueviolet;
+  height: 350px;
 }
 .contact-image {
   height: 350px;
-  width: 1240px;
+  width: 100%;
   background-color: rgb(116, 136, 47);
+}
+
+.contact-container {
+  height: 350px;
+  width: 100%;
+  background-color: var(--on-primary);
+  margin-top: 100px;
 }
 
 @media screen and (max-width: 1225px) {
