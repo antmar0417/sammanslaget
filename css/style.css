@@ -30,6 +30,12 @@ h2 {
   transition: transform 200ms ease;
 }
 
+.step-container img {
+  /* width: min-content; */
+  /* width: 90px; */
+  width: auto;
+}
+
 .step-container:hover {
   transform: translateY(-8px);
 }
@@ -67,9 +73,9 @@ img {
   width: 300px;
 }
 
-.image-container:hover {
+/* .image-container:hover {
   transform: translateY(-8px);
-}
+} */
 
 /* About Section */
 .group-presentation {
@@ -89,9 +95,10 @@ p {
 }
 
 iframe {
-  width: 600px;
-  height: 620px;
+  width: 1200px;
+  height: 695px;
   border-radius: 8px;
+  border: 0px;
 }
 
 .game {
