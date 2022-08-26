@@ -194,7 +194,7 @@ a:focus {
 }
 
 .contact-container {
-  min-height: 400px;
+  min-height: 460px;
   width: 100%;
   background-color: var(--on-primary);
   align-items: center;
