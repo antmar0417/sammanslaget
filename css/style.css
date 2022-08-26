@@ -73,10 +73,6 @@ img {
   width: 300px;
 }
 
-/* .image-container:hover {
-  transform: translateY(-8px);
-} */
-
 /* About Section */
 .group-presentation {
   max-width: 600px;
@@ -219,6 +215,30 @@ a:focus {
 
 .contact-text h3 {
   font-size: 30px;
+}
+
+.logo-placeholder {
+  width: 210px;
+  height: 52px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-logo-bork {
+  width: 210px;
+  height: 32px;
+}
+
+.logo-placeholder-yrgo {
+  width: auto;
+  height: 52px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-logo-yrgo {
+  width: auto;
+  height: 32px;
 }
 
 hr {
