@@ -7,7 +7,6 @@ section {
 }
 
 h1 {
-  /* font-family: Kaushan Script, sans-serif; */
   font-size: 60px;
   margin-bottom: 0;
 }
@@ -191,8 +190,6 @@ a:focus {
   background-image: url("../img/banner_PC_no_text.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-size: auto; */
-  /* background-size: contain; */
 }
 
 .contact-container {
