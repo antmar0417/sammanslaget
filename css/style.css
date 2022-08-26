@@ -31,8 +31,6 @@ h2 {
 }
 
 .step-container img {
-  /* width: min-content; */
-  /* width: 90px; */
   width: auto;
 }
 
@@ -96,10 +94,17 @@ iframe {
   height: 695px;
   border-radius: 8px;
   border: 0px;
+
+  /* position: relative; */
+  overflow: hidden;
+  /* width: 100%;
+  height: auto; */
+  /* padding-top: 56.25%; */
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
 .game {
-  margin: 100px 0px 60px 0px;
+  margin: 60px 0px 60px 0px;
 }
 
 /* Profiles */
@@ -265,6 +270,11 @@ hr {
   .image-container {
     margin-right: 15px;
   }
+
+  iframe {
+    width: 800px;
+    height: 464px;
+  }
 }
 
 @media screen and (max-width: 1080px) {
@@ -300,6 +310,11 @@ hr {
   h2 {
     font-size: 18px;
   }
+
+  iframe {
+    width: 400px;
+    height: 232;
+  }
 }
 
 @media screen and (max-width: 770px) {
@@ -327,11 +342,6 @@ hr {
 
   .buttons > button {
     margin-top: 20px;
-  }
-
-  iframe {
-    width: 380px;
-    height: 400px;
   }
 
   .group-presentation {
